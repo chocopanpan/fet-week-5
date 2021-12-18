@@ -1,0 +1,59 @@
+*::before {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #C5C9A4;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 5em;
+    color: #476A6F;
+  }
+  
+  h4 {
+    font-size: 1.5em;
+  }
+  
+  table {
+    margin: 0 auto;
+  }
+  
+  tr {
+    background: #7EB09B;
+    border: 1px solid #519E8A;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  td {
+   border: 1px solid #519E8A;
+   font-size: 4em;
+   text-align: center;
+   vertical-align: middle;
+   width: 100px;
+   height: 100px;
+   position: relative;
+      }
+  
+  td.x::before {
+    content: 'X';
+    color: #476A6F;
+  }
+  
+  td.o::before {
+    content: 'O';
+    color: #476A6F;
+  }
+  
+  button {
+    font-size: 2em;
+    background-color: #9A879D;
+  }
+
+  #whosTurn {
+    font-size: 2em;
+    color: #476A6F;
+  }
